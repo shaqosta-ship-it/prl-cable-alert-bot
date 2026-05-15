@@ -32,12 +32,26 @@ PRICE_RULES = {
     "expected_resale_low": 60,
     "expected_resale_high": 90,
 },
+    "vintage_nike": {
+    "name": "Vintage Nike Sweater/Hoodie",
+    "optimal_buy": 5,
+    "sweet_spot_buy": 12,
+    "max_buy": 20,
+    "absolute_worst_case_resale": 22,
+    "expected_resale_low": 35,
+    "expected_resale_high": 60,
+},
 }
 
 INCLUDE_WORDS = [
     "polo ralph lauren",
     "ralph lauren",
     "prl",
+    "vintage nike",
+    "nike hoodie",
+    "nike sweater",
+    "swoosh",
+    "center swoosh",
 ]
 
 CABLE_WORDS = [
