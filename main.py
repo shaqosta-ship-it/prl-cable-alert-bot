@@ -15,23 +15,23 @@ WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "")
 # Diese Werte kannst du später anpassen.
 PRICE_RULES = {
     "cotton": {
-        "name": "Polo Ralph Lauren Cable Knit Pullover Baumwolle",
-        "optimal_buy": 18,
-        "sweet_spot_buy": 28,
-        "max_buy": 38,
-        "absolute_worst_case_resale": 28,
-        "expected_resale_low": 38,
-        "expected_resale_high": 55,
-    },
+    "name": "Polo Ralph Lauren Cable Knit Pullover Baumwolle",
+    "optimal_buy": 12,
+    "sweet_spot_buy": 20,
+    "max_buy": 30,
+    "absolute_worst_case_resale": 28,
+    "expected_resale_low": 35,
+    "expected_resale_high": 50,
+},
     "cashmere_wool": {
-        "name": "Polo Ralph Lauren Cable Knit Cashmere/Wool Pullover",
-        "optimal_buy": 40,
-        "sweet_spot_buy": 55,
-        "max_buy": 70,
-        "absolute_worst_case_resale": 65,
-        "expected_resale_low": 80,
-        "expected_resale_high": 120,
-    },
+    "name": "Polo Ralph Lauren Cable Knit Cashmere/Wool Pullover",
+    "optimal_buy": 20,
+    "sweet_spot_buy": 35,
+    "max_buy": 45,
+    "absolute_worst_case_resale": 45,
+    "expected_resale_low": 60,
+    "expected_resale_high": 90,
+},
 }
 
 INCLUDE_WORDS = [
